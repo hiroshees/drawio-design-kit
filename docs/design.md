@@ -9,3 +9,6 @@
 
 ## クラス図
 ![クラス図](./diagrams/class-study.svg)
+
+## シーケンス図
+![シーケンス図](./diagrams/sequence-study.svg)

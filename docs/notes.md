@@ -5,3 +5,7 @@
   - アクターの名前が棒人間と重なった → draw.io の図形パネルの既定値（verticalAlign=top;spacingTop=36）が XML 手書きでは抜ける
   - 1回目の修正後も、アクターの名前が重なった → size と spacingTop の関係をルールに明記
   - alt の見出しの台形が透けた → fillColor と swimlaneFillColor の使い分けをルールに明記
+- Export（VS Code 拡張）：図のコピーを含めない設定はない（常に埋め込まれる）
+  - 当面は「編集は .drawio のみ」の運用で対応
+  - 自動化のフックを作るときに、埋め込みを外す処理も検討する
+
