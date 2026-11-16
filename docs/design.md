@@ -12,3 +12,9 @@
 
 ## シーケンス図
 ![シーケンス図](./diagrams/sequence-study.svg)
+
+## ユースケース図
+![ユースケース図](./diagrams/usecase-ai.svg)
+
+## アクティビティ図
+![アクティビティ図](./diagrams/activity-ai.svg)
