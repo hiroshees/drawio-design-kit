@@ -6,3 +6,6 @@
 
 ## ステートマシン図（申込の状態）
 ![ステートマシン図](./diagrams/state-apply.drawio.svg)
+
+## クラス図
+![クラス図](./diagrams/class-study.svg)
