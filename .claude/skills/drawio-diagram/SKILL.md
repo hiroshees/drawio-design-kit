@@ -11,7 +11,7 @@ description: docs/diagrams/ の draw.io 図（.drawio）を新規作成・修正
 2. ファイル名を `<種類>-<名前>.drawio` にする（例：`er-study.drawio`）。種類の部分は下の表の「接頭辞」を使う。チェックスクリプトは、この接頭辞で図の種類を判断する
 3. `.drawio` を書く
 4. 保存すると hook がチェックスクリプトを実行する。エラーが返ってきたら直す
-5. 作業の最後に「作成後のセルフチェック」を行い、「Export が必要なファイル」の一覧を報告する
+5. scripts/export_svg.sh を実行し、その結果を報告する
 
 | 図               | 接頭辞      | 読むファイル           |
 | ---------------- | ----------- | ---------------------- |
@@ -26,7 +26,7 @@ description: docs/diagrams/ の draw.io 図（.drawio）を新規作成・修正
 ## ファイル
 
 - 図の元データは `docs/diagrams/drawio` の `.drawio`（非圧縮の XML）。作成・修正はこのファイルに対して行う
-- 表示用の `.svg` は、人が VS Code の Export で作る。`.svg` は作成も編集もしない
+- 表示用の `.svg` は、`scripts/export_svg.sh` で `docs/diagrams/svg/` に書き出す。`.svg` を直接作成・編集しない
 - `<mxfile>` に `scale="1"` と `border="20"` を指定する（画像の拡大率は等倍、余白は 20px）
 - `<mxGraphModel>` に `background="#FFFFFF"` を指定する（背景は白で固定）
 

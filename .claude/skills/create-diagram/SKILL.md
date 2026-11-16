@@ -28,7 +28,9 @@ disable-model-invocation: true
 - 確認が取れたら、drawio-diagram スキルの手順とルールに従って作る
 - ファイル名の「名前」の部分は、内容を表す英小文字とハイフンで付ける（例：`sequence-cancel.drawio`）。同じ名前のファイルがすでにあれば、上書きせずに別の名前にする
 
-## 4. 報告する
+## 4. SVG に書き出して報告する
 
-- drawio-diagram スキルの「作成後のセルフチェック」の結果
-- 「Export が必要なファイル」の一覧
+- drawio-diagram スキルの手順に従い、作成した図だけを書き出す：`scripts/export_svg.sh docs/diagrams/drawio/<ファイル名>.drawio`
+- 報告には、次の 2 つを含める
+  - drawio-diagram スキルの「作成後のセルフチェック」の結果
+  - `export_svg.sh` の実行結果（OK / NG と、出力した SVG のパス）

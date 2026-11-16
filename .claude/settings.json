@@ -1,4 +1,7 @@
 {
+  "permissions": {
+    "allow": ["Bash(scripts/export_svg.sh:*)"]
+  },
   "hooks": {
     "PostToolUse": [
       {
