@@ -54,18 +54,23 @@
 - 流れ（遷移）の矢印は、実線＋開いた矢印（`endArrow=open;endFill=0`）
 
 ## ER図
-- 記法は IE 記法（鳥の足記法）
-- テーブルは、クラス図と同じ3区画の図形（swimlane＋行）で描く
-  - 見出し：「論理名（物理名）」の形。例：社員（employees）
-  - 1区画目：主キーの列。2区画目：それ以外の列。区画の間に区切り線を入れる
-  - 各行は「PK／FK の印 列名: 型」の形。例：`PK id: BIGINT`、`FK employee_id: BIGINT`
-- 外部キー制約を付ける前提。FK の列には参照先を書く。例：`FK employee_id: BIGINT → employees.id`
+- IE 記法（鳥の足記法）で描く
+- テーブルは、swimlane＋行の図形で描く。見出しは「論理名 / 物理名」（例：`社員 / employees`）
+- 主キーの列を先頭に置き、主キーとそれ以外の列の間に区切り線（`line` の行）を入れる
+- 列の行は「列名 : 型」とし、PK・FK の印は後ろに付ける（列名の頭をそろえるため）
+  - 例：`id : BIGINT (PK)`、`employee_id : BIGINT (FK → employees.id)`、`name : VARCHAR(50)`
+- 外部キー制約を付ける前提。FK の列には、必ず参照先（テーブル.列）を書く
 - リレーションの線は、source を親テーブル（参照される側）、target を子テーブル（FK を持つ側）にする
-  - 線の端の記号は始端・終端の両方に付ける（`startFill=0;endFill=0`）
-    - 親側の「1」：`startArrow=ERmandOne`
-    - 子側の「0以上」：`endArrow=ERzeroToMany`、「1以上」：`endArrow=ERoneToMany`、「0か1」：`endArrow=ERzeroToOne`
-  - 線は直角に曲げる（`edgeStyle=orthogonalEdgeStyle`）。テーブルの箱全体に連結する
-- リレーション名（例：主催する）は線のラベルとして付ける
+  - 親側は `startArrow=ERmandOne`、子側は多重度に合わせて `endArrow=ERzeroToMany`（0以上）／`ERoneToMany`（1以上）／`ERzeroToOne`（0か1）
+- リレーション名は、線のラベルとして付ける
+
+## 画面遷移図
+- 画面は角丸なしの四角形。1行目に画面ID（10px）、2行目に画面名を書く
+  - 例：`<font style="font-size:10px">SC-01</font><br>ログイン`
+- 遷移は実線＋開いた矢印（`endArrow=open;endFill=0`）。ラベルには、遷移のきっかけ（ボタン名・リンク名）を書く
+- 前の画面に戻る遷移（「戻る」ボタンなど）は点線（`dashed=1`）。メニューなど、別の画面へ移動するだけのものは実線のまま
+- 特定の権限の人だけが使える画面は、枠線を点線にする。画面名に「（主催者のみ）」などは書かず、図の左上に凡例（例：「点線の枠＝主催者のみ」）を1つ置く
+- 主な流れを左から右に並べ、線は直角に曲げる（`edgeStyle=orthogonalEdgeStyle`）
 
 ## 作成後のセルフチェック
 図を作ったら、次を確認して結果を報告すること
