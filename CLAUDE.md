@@ -53,6 +53,20 @@
 - 遷移のラベルは「イベント [ガード条件] / アクション」の形
 - 流れ（遷移）の矢印は、実線＋開いた矢印（`endArrow=open;endFill=0`）
 
+## ER図
+- 記法は IE 記法（鳥の足記法）
+- テーブルは、クラス図と同じ3区画の図形（swimlane＋行）で描く
+  - 見出し：「論理名（物理名）」の形。例：社員（employees）
+  - 1区画目：主キーの列。2区画目：それ以外の列。区画の間に区切り線を入れる
+  - 各行は「PK／FK の印 列名: 型」の形。例：`PK id: BIGINT`、`FK employee_id: BIGINT`
+- 外部キー制約を付ける前提。FK の列には参照先を書く。例：`FK employee_id: BIGINT → employees.id`
+- リレーションの線は、source を親テーブル（参照される側）、target を子テーブル（FK を持つ側）にする
+  - 線の端の記号は始端・終端の両方に付ける（`startFill=0;endFill=0`）
+    - 親側の「1」：`startArrow=ERmandOne`
+    - 子側の「0以上」：`endArrow=ERzeroToMany`、「1以上」：`endArrow=ERoneToMany`、「0か1」：`endArrow=ERzeroToOne`
+  - 線は直角に曲げる（`edgeStyle=orthogonalEdgeStyle`）。テーブルの箱全体に連結する
+- リレーション名（例：主催する）は線のラベルとして付ける
+
 ## 作成後のセルフチェック
 図を作ったら、次を確認して結果を報告すること
 1. すべての線に source と target があるか
