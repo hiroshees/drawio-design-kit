@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" scale="1" border="20">
+  <diagram id="usecase-ai" name="usecase-ai">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="700" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- システムの枠（枠そのものにシステム名・上寄せ） -->
+        <mxCell id="system" value="社内勉強会申込システム" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fontStyle=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="560" height="580" as="geometry" />
+        </mxCell>
+
+        <!-- アクター（枠の外） -->
+        <mxCell id="actor-emp" value="社員" style="shape=umlActor;verticalLabelPosition=middle;labelPosition=left;verticalAlign=middle;align=right;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-org" value="主催者" style="shape=umlActor;verticalLabelPosition=middle;labelPosition=left;verticalAlign=middle;align=right;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-admin" value="システム管理者" style="shape=umlActor;verticalLabelPosition=middle;labelPosition=right;verticalAlign=middle;align=left;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="490" width="40" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ユースケース -->
+        <mxCell id="uc-search" value="勉強会を探す" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-apply" value="参加を申し込む" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-cancel" value="申込を取り消す" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-create" value="勉強会を登録する" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-list" value="参加者一覧を見る" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-wait" value="キャンセル待ちに登録する" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-login" value="ログインする" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-reg" value="社員を登録する" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 主催者は社員の一種（汎化：白抜き三角を親の社員側に付ける） -->
+        <mxCell id="e-gen" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="actor-org" target="actor-emp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 関連（矢印なしの実線） -->
+        <mxCell id="a1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor-emp" target="uc-search">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor-emp" target="uc-apply">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor-emp" target="uc-cancel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor-org" target="uc-create">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor-org" target="uc-list">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor-admin" target="uc-reg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- include（基本 → 部品） -->
+        <mxCell id="i1" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="uc-apply" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="uc-cancel" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="uc-create" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- extend（追加 → 基本） -->
+        <mxCell id="x1" value="«extend»&lt;br&gt;[満員のとき]" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="uc-wait" target="uc-apply">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
