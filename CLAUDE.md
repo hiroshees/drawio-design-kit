@@ -4,6 +4,7 @@
 - 図は docs/diagrams/ に `.drawio`（非圧縮のXML）で作成する。`.drawio.svg` は作らない（人がVS Codeで変換する）
 - 既存の図は、指示がない限り上書きしない
 - `<mxGraphModel>` に `background="#FFFFFF"` を指定する（背景は白で固定）
+- - `<mxfile>` に `scale="1"` と `border="20"` を指定する（画像の拡大率は等倍、余白は20px）
 
 ## 共通
 - 線（edge）は必ず source と target を指定し、図形に連結する（端点を宙に浮かせない）
