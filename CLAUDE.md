@@ -7,6 +7,7 @@
 - 既存の図は、指示がない限り上書きしない
 - `<mxfile>` に `scale="1"` と `border="20"` を指定する（画像の拡大率は等倍、余白は20px）
 - `<mxGraphModel>` に `background="#FFFFFF"` を指定する（背景は白で固定）
+- 線（edge）は必ず source と target を指定し、図形に連結する（端点を宙に浮かせない）。ただしシーケンス図のメッセージは例外（シーケンス図の項を参照）
 
 ## 共通
 - 線（edge）は必ず source と target を指定し、図形に連結する（端点を宙に浮かせない）
@@ -32,6 +33,10 @@
 - 呼び出し：実線＋塗りつぶしの三角（`endArrow=block;endFill=1`）
 - 戻り値：点線＋開いた矢印（`dashed=1;endArrow=open;endFill=0`）。送る側から受け取る側へ引く
 - 条件分岐：`shape=umlFrame` で alt の枠を作り、区画の区切りは点線
+- メッセージは活性区間に連結しない。sourcePoint／targetPoint で座標を指定し、両端を活性区間の左右の端にそろえる
+- メッセージは上から順に、30〜40px 間隔で高さ（y 座標）をずらして配置する。戻り値は対応する呼び出しより下に置く
+- alt の枠は XML の最後（最前面）に置く。見出しの台形は白で塗り、枠の中は透明にする（`fillColor=#FFFFFF;swimlaneFillColor=none`）。ガード条件は枠内のテキストとして置く
+- ライフライン：`shape=umlLifeline`。アクターは `participant=umlActor` とし、名前が棒人間と重ならないよう `verticalAlign=top` を付け、`spacingTop` は `size` より大きくする（例：`size=40;spacingTop=42`）
 
 ## アクティビティ図
 - 開始：黒丸、終了：二重丸（`shape=endState`）

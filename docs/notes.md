@@ -1,2 +1,7 @@
 - クラス図（Claude Code作成）：指摘なし。連結・矢印・多重度すべてOK
 - Export：「図のコピーを含める」をオフにする（オンだと SVG も編集できてしまう）
+- シーケンス図（Claude Code作成）：メッセージを活性区間に連結 → 同じ高さに重なった。alt の枠が活性区間の下に隠れた
+  - 原因：CLAUDE.md の「線は必ず連結する」がシーケンス図に合わなかった → ルールに例外を追加
+  - アクターの名前が棒人間と重なった → draw.io の図形パネルの既定値（verticalAlign=top;spacingTop=36）が XML 手書きでは抜ける
+  - 1回目の修正後も、アクターの名前が重なった → size と spacingTop の関係をルールに明記
+  - alt の見出しの台形が透けた → fillColor と swimlaneFillColor の使い分けをルールに明記
