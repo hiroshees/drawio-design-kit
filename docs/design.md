@@ -18,3 +18,9 @@
 
 ## アクティビティ図
 ![アクティビティ図](./diagrams/activity-ai.svg)
+
+## ER図
+![ER図](./diagrams/er-study.svg)
+
+## 画面遷移図
+![画面遷移図](./diagrams/screen-study.svg)

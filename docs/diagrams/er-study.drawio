@@ -1,65 +1,73 @@
 <mxfile host="app.diagrams.net" scale="1" border="20">
   <diagram id="er-study" name="er-study">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="700" math="0" shadow="0" background="#FFFFFF">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="700" math="0" shadow="0" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
         <mxCell id="emp" value="社員 / employees" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="260" height="160" as="geometry" />
+          <mxGeometry x="40" y="40" width="340" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="emp-r1" value="PK  id : BIGINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
-          <mxGeometry y="30" width="260" height="26" as="geometry" />
+        <mxCell id="emp-pk" value="id : BIGINT (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
+          <mxGeometry y="30" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="emp-r2" value="employee_code : VARCHAR(10)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
-          <mxGeometry y="56" width="260" height="26" as="geometry" />
+        <mxCell id="emp-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="emp">
+          <mxGeometry y="56" width="340" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="emp-r3" value="name : VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
-          <mxGeometry y="82" width="260" height="26" as="geometry" />
+        <mxCell id="emp-c1" value="employee_code : VARCHAR(10)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
+          <mxGeometry y="66" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="emp-r4" value="email : VARCHAR(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
-          <mxGeometry y="108" width="260" height="26" as="geometry" />
+        <mxCell id="emp-c2" value="name : VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
+          <mxGeometry y="92" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="emp-r5" value="role : VARCHAR(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
-          <mxGeometry y="134" width="260" height="26" as="geometry" />
+        <mxCell id="emp-c3" value="email : VARCHAR(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
+          <mxGeometry y="118" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="emp-c4" value="role : VARCHAR(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="emp">
+          <mxGeometry y="144" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="study" value="勉強会 / study_sessions" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="260" height="160" as="geometry" />
+          <mxGeometry x="520" y="40" width="340" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="study-r1" value="PK  id : BIGINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
-          <mxGeometry y="30" width="260" height="26" as="geometry" />
+        <mxCell id="study-pk" value="id : BIGINT (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
+          <mxGeometry y="30" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="study-r2" value="FK  organizer_id : BIGINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
-          <mxGeometry y="56" width="260" height="26" as="geometry" />
+        <mxCell id="study-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="study">
+          <mxGeometry y="56" width="340" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="study-r3" value="title : VARCHAR(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
-          <mxGeometry y="82" width="260" height="26" as="geometry" />
+        <mxCell id="study-c1" value="organizer_id : BIGINT (FK → employees.id)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
+          <mxGeometry y="66" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="study-r4" value="held_at : DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
-          <mxGeometry y="108" width="260" height="26" as="geometry" />
+        <mxCell id="study-c2" value="title : VARCHAR(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
+          <mxGeometry y="92" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="study-r5" value="capacity : INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
-          <mxGeometry y="134" width="260" height="26" as="geometry" />
+        <mxCell id="study-c3" value="held_at : DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
+          <mxGeometry y="118" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="study-c4" value="capacity : INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="study">
+          <mxGeometry y="144" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="app" value="申込 / applications" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="340" width="260" height="160" as="geometry" />
+          <mxGeometry x="280" y="340" width="340" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="app-r1" value="PK  id : BIGINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
-          <mxGeometry y="30" width="260" height="26" as="geometry" />
+        <mxCell id="app-pk" value="id : BIGINT (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
+          <mxGeometry y="30" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="app-r2" value="FK  employee_id : BIGINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
-          <mxGeometry y="56" width="260" height="26" as="geometry" />
+        <mxCell id="app-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="app">
+          <mxGeometry y="56" width="340" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="app-r3" value="FK  study_session_id : BIGINT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
-          <mxGeometry y="82" width="260" height="26" as="geometry" />
+        <mxCell id="app-c1" value="employee_id : BIGINT (FK → employees.id)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
+          <mxGeometry y="66" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="app-r4" value="applied_at : DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
-          <mxGeometry y="108" width="260" height="26" as="geometry" />
+        <mxCell id="app-c2" value="study_session_id : BIGINT (FK → study_sessions.id)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
+          <mxGeometry y="92" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="app-r5" value="status : VARCHAR(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
-          <mxGeometry y="134" width="260" height="26" as="geometry" />
+        <mxCell id="app-c3" value="applied_at : DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
+          <mxGeometry y="118" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="r-emp-study" value="主催する" style="startArrow=ERmandOne;endArrow=ERzeroToMany;startSize=10;endSize=10;html=1;rounded=0;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="emp" target="study">
+        <mxCell id="app-c4" value="status : VARCHAR(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="app">
+          <mxGeometry y="144" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="r-emp-study" value="主催する" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERmandOne;endArrow=ERzeroToMany;startSize=10;endSize=10;html=1;rounded=0;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="emp" target="study">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r-emp-app" value="" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERmandOne;endArrow=ERzeroToMany;startSize=10;endSize=10;html=1;rounded=0;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="emp" target="app">

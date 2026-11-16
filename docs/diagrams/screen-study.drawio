@@ -1,35 +1,38 @@
 <mxfile host="app.diagrams.net" scale="1" border="20">
   <diagram id="screen-study" name="screen-study">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="500" math="0" shadow="0" background="#FFFFFF">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="560" math="0" shadow="0" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sc01" value="SC-01&lt;br&gt;ログイン" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="200" width="160" height="60" as="geometry" />
+        <mxCell id="legend" value="点線の枠＝主催者のみ" style="text;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sc02" value="SC-02&lt;br&gt;メニュー" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="160" height="60" as="geometry" />
+        <mxCell id="sc01" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-01&lt;/font&gt;&lt;br&gt;ログイン" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sc03" value="SC-03&lt;br&gt;勉強会一覧" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="600" y="200" width="160" height="60" as="geometry" />
+        <mxCell id="sc02" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-02&lt;/font&gt;&lt;br&gt;メニュー" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sc04" value="SC-04&lt;br&gt;勉強会詳細" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="880" y="200" width="160" height="60" as="geometry" />
+        <mxCell id="sc03" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-03&lt;/font&gt;&lt;br&gt;勉強会一覧" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sc05" value="SC-05&lt;br&gt;申込確認" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="880" y="360" width="160" height="60" as="geometry" />
+        <mxCell id="sc04" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-04&lt;/font&gt;&lt;br&gt;勉強会詳細" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="240" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sc06" value="SC-06&lt;br&gt;申込完了" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="600" y="360" width="160" height="60" as="geometry" />
+        <mxCell id="sc05" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-05&lt;/font&gt;&lt;br&gt;申込確認" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="400" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sc07" value="SC-07&lt;br&gt;マイ申込一覧" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="160" height="60" as="geometry" />
+        <mxCell id="sc06" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-06&lt;/font&gt;&lt;br&gt;申込完了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sc08" value="SC-08&lt;br&gt;勉強会登録&lt;br&gt;（主催者のみ）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
+        <mxCell id="sc07" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-07&lt;/font&gt;&lt;br&gt;マイ申込一覧" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sc09" value="SC-09&lt;br&gt;参加者一覧&lt;br&gt;（主催者のみ）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="880" y="40" width="160" height="60" as="geometry" />
+        <mxCell id="sc08" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-08&lt;/font&gt;&lt;br&gt;勉強会登録" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sc09" value="&lt;font style=&quot;font-size:10px&quot;&gt;SC-09&lt;/font&gt;&lt;br&gt;参加者一覧" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="80" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t1" value="ログイン" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sc01" target="sc02">
           <mxGeometry relative="1" as="geometry" />
@@ -43,7 +46,7 @@
         <mxCell id="t4" value="申し込む" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;labelBackgroundColor=#FFFFFF;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sc04" target="sc05">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t5" value="戻る" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;labelBackgroundColor=#FFFFFF;exitX=0.8;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sc05" target="sc04">
+        <mxCell id="t5" value="戻る" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#FFFFFF;exitX=0.8;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sc05" target="sc04">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t6" value="確定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sc05" target="sc06">
