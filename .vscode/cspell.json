@@ -3,7 +3,14 @@
   "ignorePaths": [],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["googleapiclient", "Hiroshi", "Kbbg", "mxfile"],
+  "words": [
+    "googleapiclient",
+    "Hiroshi",
+    "Kbbg",
+    "mxfile",
+    "Rmand",
+    "usecase"
+  ],
   "ignoreWords": [],
   "import": []
 }
