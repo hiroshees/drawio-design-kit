@@ -5,7 +5,7 @@ UML・設計図を draw.io で描く練習用のリポジトリ。
 ## 構成
 - `docs/diagrams/` … 図の置き場所。形式ごとに、次の 2 つのフォルダに分ける
   - `docs/diagrams/drawio/` … 図の元データ（`.drawio`）。作成・修正はこちらに対して行う
-  - `docs/diagrams/svg/` … 表示用の画像（`.svg`）。人が VS Code の Export で作る
+  - `docs/diagrams/svg/` … 表示用の画像（`.svg`）。`scripts/export_svg.sh` で書き出す（直接作成・編集しない）
 - `docs/design.md` … 図を埋め込んだ設計資料
 - `docs/notes.md` … AI が作った図のレビュー記録。ハーネス改善の材料
 
