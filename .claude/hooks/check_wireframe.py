@@ -178,7 +178,14 @@ def check_page(page, model, catalog):
         if bad:
             errors.append(f"ページ {page}: 部品 {cid} が 8 の倍数ではありません（{', '.join(bad)}）")
 
-        shape = parse_style(c.get("style")).get("shape", "")
+        style = parse_style(c.get("style"))
+        shape = style.get("shape", "")
+        # mainText が数字だけだと、draw.io の書き出しが失敗する（全角の数字なら書き出せる）
+        if shape.startswith("mxgraph.mockup.") and re.fullmatch(r"[0-9.+-]+", style.get("mainText", "")):
+            errors.append(
+                f"ページ {page}: 部品 {cid} の mainText={style['mainText']} は、数字だけのため書き出しに失敗します"
+                "（全角の数字にするか、文字を足してください）"
+            )
         if shape.startswith("mxgraph.mockup.") and catalog is not None:
             if shape[len("mxgraph.mockup."):] not in catalog:
                 errors.append(f"ページ {page}: 部品 {cid} の図形 {shape} は、カタログの採用リストにありません")

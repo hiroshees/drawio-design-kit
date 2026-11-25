@@ -1,0 +1,242 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="pc" name="pc">
+    <mxGraphModel dx="1280" dy="800" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="800" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="layer-frame-pc" value="frame" parent="0" />
+        <mxCell id="layer-parts-pc" value="parts" parent="0" />
+        <mxCell id="layer-notes-pc" value="notes" parent="0" />
+
+        <mxCell id="title-pc" value="SC-03 勉強会一覧（pc）" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="-32" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="screen-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="0" width="1280" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="c1-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="0" width="1280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2-pc" value="社内勉強会申込システム" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="32" y="16" width="320" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c3-pc" value="" style="shape=mxgraph.mockup.text.linkBar;html=1;whiteSpace=wrap;mainText=ホーム,一覧,マイ申込;textSize=14;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="888" y="24" width="360" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- parts -->
+        <mxCell id="c4-pc" value="勉強会一覧" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=24;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="104" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5-pc" value="キーワード" style="shape=mxgraph.mockup.forms.searchBox;html=1;strokeColor=#666666;whiteSpace=wrap;mainText=;flipH=1;align=left;spacingLeft=26;fontSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="168" width="320" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c6-pc" value="すべての開催月" style="shape=mxgraph.mockup.forms.comboBox;html=1;whiteSpace=wrap;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=14;spacingLeft=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="496" y="168" width="200" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c7-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="232" width="960" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="c8-pc" value="生成AI入門ハンズオン" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="248" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c9-pc" value="2026年5月12日（月）18:30〜 ・ 会議室A ・ 残り5名" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="280" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c10-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=詳細;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="984" y="256" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c11-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="344" width="960" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="c12-pc" value="SQL基礎勉強会" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="360" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c13-pc" value="2026年5月19日（月）18:30〜 ・ オンライン ・ 残り12名" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="392" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c14-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=詳細;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="984" y="368" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c15-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="456" width="960" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="c16-pc" value="プレゼン資料の作り方" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="472" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c17-pc" value="2026年5月26日（月）12:15〜 ・ 会議室B ・ 満席" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="504" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c18-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=詳細;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="984" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c19-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="568" width="960" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="c20-pc" value="Git 入門" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="584" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c21-pc" value="2026年6月2日（月）18:30〜 ・ 会議室A ・ 残り8名" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="176" y="616" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c22-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=詳細;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="984" y="592" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c23-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&lt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="520" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c24-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=１;strokeColor=#008CFF;fillColor=#008CFF;textColor=#FFFFFF;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="568" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c25-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=２;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="616" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c26-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=３;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="664" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c27-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&gt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="712" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- notes -->
+        <mxCell id="c28-pc" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="144" y="160" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c29-pc" value="1．検索欄：キーワードで絞り込む（タイトルの部分一致）" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="0" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c30-pc" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="480" y="160" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c31-pc" value="2．開催月：選ぶと一覧を絞り込む" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="64" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c32-pc" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="968" y="248" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c33-pc" value="3．詳細：押すと勉強会詳細へ進む" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="128" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c34-pc" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="504" y="680" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c35-pc" value="4．ページ送り：数字ボタンで 1 ページ 4 件ずつ切り替える。現在のページは青。「&lt;」「&gt;」は前後のページ" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="192" width="360" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sp" name="sp">
+    <mxGraphModel dx="375" dy="812" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="375" pageHeight="812" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="layer-frame-sp" value="frame" parent="0" />
+        <mxCell id="layer-parts-sp" value="parts" parent="0" />
+        <mxCell id="layer-notes-sp" value="notes" parent="0" />
+
+        <mxCell id="title-sp" value="SC-03 勉強会一覧（sp）" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="-32" width="376" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="screen-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="0" width="375" height="812" as="geometry" />
+        </mxCell>
+        <mxCell id="c1-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="0" width="375" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c2-sp" value="社内勉強会申込システム" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="16" y="8" width="296" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c3-sp" value="☰" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=24;fontColor=#333333;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="320" y="8" width="40" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- parts -->
+        <mxCell id="c4-sp" value="勉強会一覧" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=24;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="72" width="344" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5-sp" value="キーワード" style="shape=mxgraph.mockup.forms.searchBox;html=1;strokeColor=#666666;whiteSpace=wrap;mainText=;flipH=1;align=left;spacingLeft=26;fontSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="128" width="344" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c6-sp" value="すべての開催月" style="shape=mxgraph.mockup.forms.comboBox;html=1;whiteSpace=wrap;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=14;spacingLeft=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="176" width="344" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c7-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="224" width="344" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="c8-sp" value="生成AI入門ハンズオン" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="32" y="240" width="312" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c9-sp" value="5/12（月）18:30〜 ・ 会議室A ・ 残り5名" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="32" y="272" width="312" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c10-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=詳細;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="224" y="304" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c11-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="376" width="344" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="c12-sp" value="SQL基礎勉強会" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="32" y="392" width="312" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c13-sp" value="5/19（月）18:30〜 ・ オンライン ・ 残り12名" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="32" y="424" width="312" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c14-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=詳細;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="224" y="456" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c15-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="528" width="344" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="c16-sp" value="プレゼン資料の作り方" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="32" y="544" width="312" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c17-sp" value="5/26（月）12:15〜 ・ 会議室B ・ 満席" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="32" y="576" width="312" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c18-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=詳細;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="224" y="608" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c19-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&lt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="72" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c20-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=１;strokeColor=#008CFF;fillColor=#008CFF;textColor=#FFFFFF;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="120" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c21-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=２;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="168" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c22-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=３;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="216" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c23-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&gt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="264" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- notes -->
+        <mxCell id="c24-sp" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="120" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c25-sp" value="1．検索欄：キーワードで絞り込む（タイトルの部分一致）" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="0" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c26-sp" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="168" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c27-sp" value="2．開催月：選ぶと一覧を絞り込む" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="64" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c28-sp" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="208" y="296" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c29-sp" value="3．詳細：押すと勉強会詳細へ進む" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="128" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c30-sp" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="56" y="680" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c31-sp" value="4．ページ送り：数字ボタンで 1 ページ 3 件ずつ切り替える。現在のページは青。メニューは右上の ☰ から開く" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="192" width="360" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
