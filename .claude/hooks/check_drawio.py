@@ -10,12 +10,19 @@
   2 … ルール違反あり。内容は標準エラー出力に出す（hook では Claude Code に返される）
 
 チェック項目は、これまでのレビューで実際に起きた失敗に対応するものだけにしている。
+
+フォルダでチェックの内容を切り替える
+  outputs/wireframes/ の下 … check_wireframe.py（ワイヤーフレーム用）
+  それ以外                 … このファイルの check()（UML・ER 図用）
 """
 import json
 import os
 import re
 import sys
 import xml.etree.ElementTree as ET
+
+sys.dont_write_bytecode = True  # import で __pycache__ を作らない（リポジトリを汚さないため）
+import check_wireframe  # 同じフォルダのワイヤーフレーム用チェック
 
 # ファイル名の接頭辞 → 図の種類
 PREFIXES = ["usecase", "class", "sequence", "activity", "state", "er", "screen"]
@@ -198,6 +205,12 @@ def targets_from_hook():
     return [path] if path else []
 
 
+def is_wireframe(path):
+    """outputs/wireframes/ の下のファイルなら True（フォルダでチェックの内容を切り替える）"""
+    parts = os.path.abspath(path).split(os.sep)
+    return any(a == "outputs" and b == "wireframes" for a, b in zip(parts, parts[1:]))
+
+
 def main():
     paths = sys.argv[1:] or targets_from_hook()
     # 対象は .drawio だけ（.drawio.svg や .drawio.png は対象外）
@@ -205,7 +218,8 @@ def main():
 
     failed = False
     for p in paths:
-        errors = check(p)
+        # ワイヤーフレームは専用のチェックを使う（UML 用のチェックは当てない）
+        errors = check_wireframe.check(p) if is_wireframe(p) else check(p)
         if errors:
             failed = True
             print(f"[check_drawio] {p} にルール違反があります（{len(errors)} 件）。直してください:", file=sys.stderr)

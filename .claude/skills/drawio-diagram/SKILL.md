@@ -1,6 +1,6 @@
 ---
 name: drawio-diagram
-description: outputs/uml/ の draw.io 図（.drawio）を新規作成・修正するときに使う。ユースケース図、クラス図、シーケンス図、アクティビティ図、ステートマシン図、ER図、画面遷移図に対応。
+description: outputs/uml/ の draw.io 図（.drawio）を新規作成・修正するときに使う。ユースケース図、クラス図、シーケンス図、アクティビティ図、ステートマシン図、ER図、画面遷移図に対応。ワイヤーフレーム（outputs/wireframes/）には使わない。
 ---
 
 # draw.io 作図スキル

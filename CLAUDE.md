@@ -13,6 +13,9 @@ UML・設計図を draw.io で描く練習用のリポジトリ。
 - `agent-notes/notes.md` … AI が作った図のレビュー記録。ハーネス改善の材料
 
 ## 作業のルール
-- draw.io の図を作成・修正するときは、必ず `drawio-diagram` スキルに従う
+- draw.io の図は、置き場所（作る図の種類）で従うスキルを使い分ける
+  - UML 図・ER 図（`outputs/uml/`）：必ず `drawio-diagram` スキルに従う。書き出しは `scripts/export_svg.sh`
+  - ワイヤーフレーム（`outputs/wireframes/`）：`drawio-diagram` スキルは使わない。`drawio-wireframe` スキルを作成中のため、作成のルールが決まるまで、ワイヤーフレームの作成・修正は始めない。書き出しは `scripts/export_wireframe.sh`（SVG と PNG）
 - 既存の図は、指示がない限り上書きしない
-- `.drawio` を保存すると、hook がチェックスクリプトを自動で実行する。エラーが返ってきたら、すべて直してから作業を終える
+- `.drawio` を保存すると、hook がチェックスクリプトを自動で実行する。チェックの内容は、フォルダ（`outputs/uml/` か `outputs/wireframes/`）で切り替わる。エラーが返ってきたら、すべて直してから作業を終える
+- `.drawio` は、作成中に VS Code の draw.io エディタで開かない（意図しない保存で壊れることがある）
