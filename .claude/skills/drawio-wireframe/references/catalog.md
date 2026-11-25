@@ -1,6 +1,6 @@
 # 部品カタログ（Mockups 図形）
 
-`catalog.drawio` の 1 ページ 1 カテゴリに、候補の図形を並べて描画を確認したもの。
+`outputs/wireframes/catalog/catalog.drawio` の 1 ページ 1 カテゴリに、候補の図形を並べて描画を確認したもの。
 PNG に書き出した画像で、描画できたことを確認した図形だけを「採用」にしている。図形名は draw.io 本体に実在するものだけを使った。
 
 ## 使い方の注意（確認で分かったこと）
@@ -78,3 +78,9 @@ PNG に書き出した画像で、描画できたことを確認した図形だ�
 - `mxgraph.mockup.containers.*`（window など）の内側に部品を重ねたときの前後関係
 - 文字サイズ・色の統一（フェーズ 2 のルールで決める）
 - スマホ向けの図形（`mxgraph.mockup.mobile*`、iOS、Android）は今回の対象外
+
+## 図形を追加するとき
+
+1. 図形名は、推測で書かない。draw.io 本体に実在するか、描画して確かめる
+2. `outputs/wireframes/catalog/catalog.drawio` に、新しい図形を置いて PNG に書き出し、画像で描画を確認する（`scripts/export_wireframe.sh outputs/wireframes/catalog/catalog.drawio` で、ページごとに書き出せる）
+3. 描画できたものだけを、この文書の「採用」の表に追加する（チェックスクリプトは、この表を採用リストとして読む）。使えなかったものは「不採用」に、理由とともに書く
