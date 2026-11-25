@@ -30,3 +30,6 @@
 
 ## 画面遷移図
 ![画面遷移図](../outputs/uml/svg/screen-study.svg)
+
+## ユースケース図（図書貸出・動作確認用）
+![ユースケース図](../outputs/uml/svg/usecase-library-test.svg)
