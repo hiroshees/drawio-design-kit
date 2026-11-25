@@ -12,6 +12,7 @@ PNG に書き出した画像で、描画できたことを確認した図形だ�
   - `subText=`：リストボックスの行（`mainText` は見出し）、アラートボックスの本文。`buttonText=` はアラートボックスのボタン
   - `value`（通常のラベル）で指定できるもの：テキスト入力、コンボボックス、検索ボックス、スピナー、ウィンドウのタイトル
 - 日本語は問題なく描画できた
+- `strokeColor` を指定しても、ラジオグループ、チェックボックスグループ、確認ダイアログ、検索欄、スピナーの枠は、ほかの部品より濃く（黒く）見える。原因は未確認で、許容している（`strokeColor=none` は効く）
 
 ## 採用（描画を確認できたもの）
 
@@ -22,8 +23,8 @@ PNG に書き出した画像で、描画できたことを確認した図形だ�
 | buttons | `mxgraph.mockup.buttons.onOffButton` | 80×32 | `mainText=ON,OFF;` |  |
 | forms | `mxgraph.mockup.text.textBox` | 200×32 | `mainText=;strokeColor=#666666;fillColor=#ffffff;align=left;spacingLeft=8;` |  |
 | forms | `mxgraph.mockup.forms.pwField` | 200×32 | `mainText=******;` |  |
-| forms | `mxgraph.mockup.forms.comboBox` | 200×32 | `strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;` |  |
-| forms | `mxgraph.mockup.forms.checkbox` | 24×24 | `resizable=0;fillColor=#AAAAAA;gradientColor=#666666;strokeColor=#444444;` | 文字なし。チェック済みの見た目のみ |
+| forms | `mxgraph.mockup.forms.comboBox` | 200×32 | `strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;spacingLeft=8;` | 文字の左の余白は `spacingLeft=8` で指定できる。`fontSize=14` も付ける |
+| forms | `mxgraph.mockup.forms.checkbox` | 24×24 | `resizable=0;fillColor=#AAAAAA;gradientColor=#666666;strokeColor=#444444;` | 文字なし。**常にチェック済みの見た目**になる。未選択の見た目が要るときは、`checkboxGroup` を 1 項目（`+` なし）、`strokeColor=none` で使う |
 | forms | `mxgraph.mockup.forms.radioGroup` | 160×64 | `mainText=+選択肢1,選択肢2;` |  |
 | forms | `mxgraph.mockup.forms.checkboxGroup` | 160×64 | `mainText=+選択肢1,選択肢2;` |  |
 | forms | `mxgraph.mockup.forms.searchBox` | 200×32 | `mainText=;flipH=1;align=left;spacingLeft=26;` |  |
@@ -45,7 +46,7 @@ PNG に書き出した画像で、描画できたことを確認した図形だ�
 | containers | `mxgraph.mockup.containers.accordion` | 200×120 | `mainText=+グループ1,グループ2,グループ3;` |  |
 | containers | `mxgraph.mockup.containers.marginRect` | 200×120 | `-` |  |
 | navigation | `mxgraph.mockup.navigation.breadcrumb` | 240×24 | `mainText=ホーム,一覧,詳細;` |  |
-| navigation | `mxgraph.mockup.navigation.pagination` | 240×24 | `linkText=;（value=「< 1 2 3 >」）` | 文字が小さい（< 1 2 3 >）。大きさの調整は未確認 |
+| navigation | `mxgraph.mockup.navigation.pagination` | 96×24 | `linkText=;fontSize=14;fontColor=#008CFF;fontStyle=4;（value=「< 1 2 3 >」）` | 既定は小さい黒文字。`fontSize` などで、青い下線の文字にできる。箱は文字の幅（96）に合わせる |
 | navigation | `mxgraph.mockup.navigation.stepBar` | 280×32 | `mainText=入力,確認,完了;` |  |
 | navigation | `mxgraph.mockup.navigation.scrollBar` | 16×120 | `barPos=40;direction=north;resizeHeight=1;` |  |
 | navigation | `mxgraph.mockup.navigation.pageControl` | 120×24 | `fillColor=#999999;strokeColor=#666666;` | 幅 120 以上で点が複数並ぶ（幅 64・高さ 16 では点が 1 つだけ） |

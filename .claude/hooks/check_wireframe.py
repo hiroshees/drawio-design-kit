@@ -144,6 +144,7 @@ def check_page(page, model, catalog):
 
     # --- 部品ごとのチェック ---
     screen_found = False
+    frame_h = None
     expected = SCREEN_SIZES.get(page)
     for c in cells:
         if c.get("vertex") != "1" and c.get("edge") != "1":
@@ -164,12 +165,16 @@ def check_page(page, model, catalog):
             errors.append(f"ページ {page}: 部品 {cid} の座標が数値ではありません")
             continue
 
-        # 画面枠（左上が (0, 0)、規定の大きさ）は、8 の倍数の対象外
-        if expected and (x, y, w, h) == (0, 0, expected[0], expected[1]):
+        # 画面枠（左上が (0, 0)、規定の幅で、高さは規定以上）は、8 の倍数の対象外
+        if expected and (x, y, w) == (0, 0, expected[0]) and h >= expected[1]:
             screen_found = True
+            frame_h = h
             continue
 
-        bad = [f"{k}={v:g}" for k, v in (("x", x), ("y", y), ("幅", w), ("高さ", h)) if not is_multiple_of_8(v)]
+        # 画面の幅いっぱいの部品（ヘッダーなど）は、幅が 8 の倍数でなくてもよい
+        full_width = expected and x == 0 and w == expected[0]
+        checks = (("x", x), ("y", y), ("幅", w), ("高さ", h))
+        bad = [f"{k}={v:g}" for k, v in checks if not is_multiple_of_8(v) and not (k == "幅" and full_width)]
         if bad:
             errors.append(f"ページ {page}: 部品 {cid} が 8 の倍数ではありません（{', '.join(bad)}）")
 
@@ -179,5 +184,25 @@ def check_page(page, model, catalog):
                 errors.append(f"ページ {page}: 部品 {cid} の図形 {shape} は、カタログの採用リストにありません")
 
     if expected and not screen_found:
-        errors.append(f"ページ {page}: 画面枠（左上 (0, 0)、{expected[0]}×{expected[1]} の四角形）がありません")
+        errors.append(f"ページ {page}: 画面枠（左上 (0, 0)、幅 {expected[0]}、高さ {expected[1]} 以上の四角形）がありません")
+    elif expected and frame_h > expected[1] and not has_fold_line(cells, layer_of, expected[1]):
+        errors.append(
+            f"ページ {page}: 画面枠を {expected[1]} より高くした場合は、y={expected[1]} の位置に、"
+            "画面の下端を示す点線（frame レイヤーの線）を引いてください"
+        )
     return errors
+
+
+def has_fold_line(cells, layer_of, y_fold):
+    """frame レイヤーに、y=y_fold を水平に通る線（sourcePoint と targetPoint の y が同じ）があるか"""
+    for c in cells:
+        if c.get("edge") != "1" or not layer_of(c) or not layer_of(c).startswith("layer-frame"):
+            continue
+        geo = c.find("mxGeometry")
+        pts = {p.get("as"): p.get("y") for p in geo.findall("mxPoint")} if geo is not None else {}
+        try:
+            if float(pts["sourcePoint"]) == float(pts["targetPoint"]) == y_fold:
+                return True
+        except (KeyError, TypeError, ValueError):
+            continue
+    return False
