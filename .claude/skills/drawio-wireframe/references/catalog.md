@@ -62,6 +62,7 @@ PNG に書き出した画像で、描画できたことを確認した図形だ�
 | misc | `mxgraph.mockup.misc.help_icon` | 32×32 | `-` |  |
 | graphics | `mxgraph.mockup.graphics.simpleIcon` | 32×32 | `strokeColor=#7E7E7E;fillColor=#111111;` |  |
 | graphics | `mxgraph.mockup.graphics.barChart` | 160×120 | `strokeColor=none;strokeColor2=none;` |  |
+| graphics | `mxgraph.mockup.graphics.columnChart` | 160×120 | `strokeColor=none;strokeColor2=none;` | 縦棒。2 系列（青と灰）、3 組で固定。本数や値は変えられない（未確認）。`barChart` は横棒 |
 | graphics | `mxgraph.mockup.graphics.lineChart` | 160×120 | `strokeColor=none;` |  |
 | graphics | `mxgraph.mockup.graphics.pieChart` | 120×120 | `parts=10,20,35;` |  |
 | graphics | `mxgraph.mockup.graphics.iconGrid` | 120×120 | `-` |  |

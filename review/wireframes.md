@@ -21,3 +21,9 @@
 
 ## SC-08 勉強会登録（sp）
 ![SC-08 勉強会登録（sp）](../outputs/wireframes/svg/wf-sc08-create-sp.svg)
+
+## SC-41 家計簿の月次一覧（pc）
+![SC-41 月次一覧（pc）](../outputs/wireframes/svg/wf-sc41-ledger-pc.svg)
+
+## SC-41 家計簿の月次一覧（sp）
+![SC-41 月次一覧（sp）](../outputs/wireframes/svg/wf-sc41-ledger-sp.svg)

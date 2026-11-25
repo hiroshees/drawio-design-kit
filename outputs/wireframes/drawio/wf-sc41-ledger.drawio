@@ -1,0 +1,244 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="pc" name="pc">
+    <mxGraphModel dx="1280" dy="800" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="800" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="layer-frame-pc" value="frame" parent="0" />
+        <mxCell id="layer-parts-pc" value="parts" parent="0" />
+        <mxCell id="layer-notes-pc" value="notes" parent="0" />
+        <mxCell id="title-pc" value="SC-41 月次一覧（pc）" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="-32" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="screen-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="0" width="1280" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="c1-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="0" width="1280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2-pc" value="家計簿" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="32" y="16" width="320" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c3-pc" value="" style="shape=mxgraph.mockup.text.linkBar;html=1;whiteSpace=wrap;mainText=月次,年次,設定;textSize=14;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="888" y="24" width="360" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c4-pc" value="月次一覧" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=24;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="104" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=支出を追加;strokeColor=#008CFF;fillColor=#008CFF;textColor=#FFFFFF;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="920" y="104" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c6-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&lt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="176" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7-pc" value="2026年5月" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="208" y="176" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c8-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&gt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="376" y="176" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9-pc" value="" style="shape=mxgraph.mockup.graphics.columnChart;html=1;whiteSpace=wrap;strokeColor=none;strokeColor2=none;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="248" width="960" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c10-pc" value="日付" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c11-pc" value="項目" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="320" y="520" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c12-pc" value="金額" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontStyle=1;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="880" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c13-pc" value="5/24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="560" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c14-pc" value="食費" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="320" y="560" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c15-pc" value="¥3,280" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="880" y="560" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c16-pc" value="5/22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c17-pc" value="日用品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="320" y="600" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c18-pc" value="¥1,150" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="880" y="600" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c19-pc" value="5/20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c20-pc" value="交通費" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="320" y="640" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c21-pc" value="¥2,400" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="880" y="640" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c22-pc" value="5/18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="680" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c23-pc" value="外食" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="320" y="680" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c24-pc" value="¥4,600" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="880" y="680" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c25-pc" value="5/15" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="160" y="720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c26-pc" value="書籍" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="320" y="720" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c27-pc" value="¥1,980" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="880" y="720" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c28-pc" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="144" y="168" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c29-pc" value="1．月の切り替え：「&lt;」で前月、「&gt;」で翌月を表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="0" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c30-pc" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="144" y="240" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c31-pc" value="2．収支の棒グラフ：表示中の月の収支を、日ごとの縦棒で表示する。青は収入、灰は支出" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="64" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c32-pc" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="144" y="512" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c33-pc" value="3．支出の明細：表示中の月の支出を、日付の新しい順に表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="128" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c34-pc" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="904" y="96" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c35-pc" value="4．支出を追加：押すと支出の登録へ進む" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="192" width="360" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sp" name="sp">
+    <mxGraphModel dx="375" dy="812" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="375" pageHeight="812" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="layer-frame-sp" value="frame" parent="0" />
+        <mxCell id="layer-parts-sp" value="parts" parent="0" />
+        <mxCell id="layer-notes-sp" value="notes" parent="0" />
+        <mxCell id="title-sp" value="SC-41 月次一覧（sp）" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="-32" width="376" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="screen-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="0" width="375" height="812" as="geometry" />
+        </mxCell>
+        <mxCell id="c1-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="0" width="375" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c2-sp" value="家計簿" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="16" y="8" width="296" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c3-sp" value="☰" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=24;fontColor=#333333;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="320" y="8" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c4-sp" value="月次一覧" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=24;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="72" width="344" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&lt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="144" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c6-sp" value="2026年5月" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=16;fontColor=#333333;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="64" y="144" width="248" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=&gt;;strokeColor=#666666;fillColor=#dddddd;textColor=#333333;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="320" y="144" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c8-sp" value="" style="shape=mxgraph.mockup.graphics.columnChart;html=1;whiteSpace=wrap;strokeColor=none;strokeColor2=none;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="216" width="344" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="c9-sp" value="日付" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="408" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c10-sp" value="項目" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="104" y="408" width="168" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c11-sp" value="金額" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontStyle=1;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="272" y="408" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c12-sp" value="5/24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="448" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c13-sp" value="食費" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="104" y="448" width="168" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c14-sp" value="¥3,280" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="272" y="448" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c15-sp" value="5/22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="488" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c16-sp" value="日用品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="104" y="488" width="168" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c17-sp" value="¥1,150" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="272" y="488" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c18-sp" value="5/20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="528" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c19-sp" value="交通費" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="104" y="528" width="168" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c20-sp" value="¥2,400" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="272" y="528" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c21-sp" value="5/18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="568" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c22-sp" value="外食" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="104" y="568" width="168" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c23-sp" value="¥4,600" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="272" y="568" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c24-sp" value="5/15" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="608" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c25-sp" value="書籍" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="104" y="608" width="168" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c26-sp" value="¥1,980" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=14;fontColor=#333333;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="272" y="608" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c27-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=支出を追加;strokeColor=#008CFF;fillColor=#008CFF;textColor=#FFFFFF;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="680" width="344" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c28-sp" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="136" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c29-sp" value="1．月の切り替え：「&lt;」で前月、「&gt;」で翌月を表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="0" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c30-sp" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="208" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c31-sp" value="2．収支の棒グラフ：表示中の月の収支を、日ごとの縦棒で表示する。青は収入、灰は支出" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="64" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c32-sp" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="400" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c33-sp" value="3．支出の明細：表示中の月の支出を、日付の新しい順に表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="128" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="c34-sp" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="672" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c35-sp" value="4．支出を追加：押すと支出の登録へ進む" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="192" width="360" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

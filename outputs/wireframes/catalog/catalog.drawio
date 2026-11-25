@@ -294,7 +294,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="graphics" name="graphics">
-        <mxGraphModel dx="1202" dy="936" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="192" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="1202" dy="936" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="344" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -327,6 +327,12 @@
                 </mxCell>
                 <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="graphics.iconGrid" vertex="1">
                     <mxGeometry height="16" width="200" x="1000" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="shape=mxgraph.mockup.graphics.columnChart;html=1;whiteSpace=wrap;strokeColor=none;strokeColor2=none;" value="" vertex="1">
+                    <mxGeometry height="120" width="160" x="40" y="184" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="graphics.columnChart" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="308" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
