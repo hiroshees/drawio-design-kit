@@ -1,6 +1,6 @@
 ---
 name: drawio-diagram
-description: docs/diagrams/ の draw.io 図（.drawio）を新規作成・修正するときに使う。ユースケース図、クラス図、シーケンス図、アクティビティ図、ステートマシン図、ER図、画面遷移図に対応。
+description: outputs/uml/ の draw.io 図（.drawio）を新規作成・修正するときに使う。ユースケース図、クラス図、シーケンス図、アクティビティ図、ステートマシン図、ER図、画面遷移図に対応。
 ---
 
 # draw.io 作図スキル
@@ -25,8 +25,8 @@ description: docs/diagrams/ の draw.io 図（.drawio）を新規作成・修正
 
 ## ファイル
 
-- 図の元データは `docs/diagrams/drawio` の `.drawio`（非圧縮の XML）。作成・修正はこのファイルに対して行う
-- 表示用の `.svg` は、`scripts/export_svg.sh` で `docs/diagrams/svg/` に書き出す。`.svg` を直接作成・編集しない
+- 図の元データは `outputs/uml/drawio` の `.drawio`（非圧縮の XML）。作成・修正はこのファイルに対して行う
+- 表示用の `.svg` は、`scripts/export_svg.sh` で `outputs/uml/svg/` に書き出す。`.svg` を直接作成・編集しない
 - `<mxfile>` に `scale="1"` と `border="20"` を指定する（画像の拡大率は等倍、余白は 20px）
 - `<mxGraphModel>` に `background="#FFFFFF"` を指定する（背景は白で固定）
 

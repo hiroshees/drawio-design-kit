@@ -7,8 +7,8 @@
 #   scripts/export_svg.sh ファイル...      … 指定した図だけ書き出す（変更の有無に関係なく）
 #
 # 動き
-#   - 入力：docs/diagrams/drawio/*.drawio
-#   - 出力：docs/diagrams/svg/<同じ名前>.svg（例：er-study.drawio → er-study.svg）
+#   - 入力：outputs/uml/drawio/*.drawio
+#   - 出力：outputs/uml/svg/<同じ名前>.svg（例：er-study.drawio → er-study.svg）
 #   - 書き出す前に check_drawio.py でチェックし、ルール違反がある図は書き出さない
 #   - 図のコピーは埋め込まない（-e を付けない）。余白は 20px
 #
@@ -19,8 +19,8 @@
 set -u
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SRC_DIR="$ROOT/docs/diagrams/drawio"
-OUT_DIR="$ROOT/docs/diagrams/svg"
+SRC_DIR="$ROOT/outputs/uml/drawio"
+OUT_DIR="$ROOT/outputs/uml/svg"
 CHECKER="$ROOT/.claude/hooks/check_drawio.py"
 BORDER=20
 

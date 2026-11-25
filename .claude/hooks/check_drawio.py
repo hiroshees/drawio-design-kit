@@ -3,7 +3,7 @@
 
 使い方
   hook から  : 標準入力で Claude Code の JSON を受け取り、書き込まれたファイルを検査する
-  手動で実行 : python3 .claude/hooks/check_drawio.py docs/diagrams/drawio/er-study.drawio ...
+  手動で実行 : python3 .claude/hooks/check_drawio.py outputs/uml/drawio/er-study.drawio ...
 
 終了コード
   0 … 問題なし（または .drawio 以外のファイル）

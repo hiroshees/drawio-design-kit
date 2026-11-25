@@ -30,7 +30,7 @@ disable-model-invocation: true
 
 ## 4. SVG に書き出して報告する
 
-- drawio-diagram スキルの手順に従い、作成した図だけを書き出す：`scripts/export_svg.sh docs/diagrams/drawio/<ファイル名>.drawio`
+- drawio-diagram スキルの手順に従い、作成した図だけを書き出す：`scripts/export_svg.sh outputs/uml/drawio/<ファイル名>.drawio`
 - 報告には、次の 2 つを含める
   - drawio-diagram スキルの「作成後のセルフチェック」の結果
   - `export_svg.sh` の実行結果（OK / NG と、出力した SVG のパス）
