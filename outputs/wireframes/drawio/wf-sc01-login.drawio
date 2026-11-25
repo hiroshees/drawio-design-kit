@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="pc" name="pc">
+    <mxGraphModel dx="1280" dy="800" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="800" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="layer-frame-pc" value="frame" parent="0" />
+        <mxCell id="layer-parts-pc" value="parts" parent="0" />
+        <mxCell id="layer-notes-pc" value="notes" parent="0" />
+
+        <!-- frame：画面の ID と名前、画面枠（1280×800） -->
+        <mxCell id="title-pc" value="SC-01 ログイン（pc）" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="-32" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="screen-pc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-frame-pc">
+          <mxGeometry x="0" y="0" width="1280" height="800" as="geometry" />
+        </mxCell>
+
+        <!-- parts：画面の中身（幅 320 の 1 列、画面の中央） -->
+        <mxCell id="system-pc" value="社内勉強会申込システム" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#666666;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="480" y="232" width="320" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="heading-pc" value="ログイン" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="480" y="272" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="label-email-pc" value="メールアドレス" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="480" y="336" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="input-email-pc" value="taro@example.com" style="shape=mxgraph.mockup.text.textBox;html=1;whiteSpace=wrap;mainText=;strokeColor=#666666;fillColor=#ffffff;align=left;spacingLeft=8;fontSize=14;fontColor=#999999;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="480" y="368" width="320" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="label-pw-pc" value="パスワード" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="480" y="424" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="input-pw-pc" value="" style="shape=mxgraph.mockup.forms.pwField;html=1;whiteSpace=wrap;mainText=********;strokeColor=#666666;textSize=14;align=left;spacingLeft=8;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="480" y="456" width="320" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="btn-login-pc" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=ログイン;strokeColor=#008CFF;fillColor=#008CFF;textColor=#FFFFFF;textSize=14;" vertex="1" parent="layer-parts-pc">
+          <mxGeometry x="480" y="520" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- notes：番号の丸（対象の左上）と、画面枠の右側の補足文 -->
+        <mxCell id="no1-pc" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="464" y="360" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="no2-pc" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="464" y="448" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="no3-pc" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="464" y="512" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="note1-pc" value="1．メールアドレス：必須。メール形式で入力する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="0" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="note2-pc" value="2．パスワード：必須。入力内容は伏せ字で表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="64" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="note3-pc" value="3．ログイン：押すと入力を確認し、成功したらメニュー画面へ進む。失敗したらエラーを表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+          <mxGeometry x="1320" y="128" width="360" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sp" name="sp">
+    <mxGraphModel dx="375" dy="812" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="375" pageHeight="812" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="layer-frame-sp" value="frame" parent="0" />
+        <mxCell id="layer-parts-sp" value="parts" parent="0" />
+        <mxCell id="layer-notes-sp" value="notes" parent="0" />
+
+        <!-- frame：画面の ID と名前、画面枠（375×812） -->
+        <mxCell id="title-sp" value="SC-01 ログイン（sp）" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="-32" width="376" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="screen-sp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;" vertex="1" parent="layer-frame-sp">
+          <mxGeometry x="0" y="0" width="375" height="812" as="geometry" />
+        </mxCell>
+
+        <!-- parts：画面の中身（左の余白 16、幅は 8 の倍数の 344） -->
+        <mxCell id="system-sp" value="社内勉強会申込システム" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#666666;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="96" width="344" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="heading-sp" value="ログイン" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="136" width="344" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="label-email-sp" value="メールアドレス" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="200" width="344" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="input-email-sp" value="taro@example.com" style="shape=mxgraph.mockup.text.textBox;html=1;whiteSpace=wrap;mainText=;strokeColor=#666666;fillColor=#ffffff;align=left;spacingLeft=8;fontSize=14;fontColor=#999999;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="232" width="344" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="label-pw-sp" value="パスワード" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="288" width="344" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="input-pw-sp" value="" style="shape=mxgraph.mockup.forms.pwField;html=1;whiteSpace=wrap;mainText=********;strokeColor=#666666;textSize=14;align=left;spacingLeft=8;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="320" width="344" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="btn-login-sp" value="" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=ログイン;strokeColor=#008CFF;fillColor=#008CFF;textColor=#FFFFFF;textSize=14;" vertex="1" parent="layer-parts-sp">
+          <mxGeometry x="16" y="384" width="344" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- notes：番号の丸（対象の左上）と、画面枠の右側の補足文 -->
+        <mxCell id="no1-sp" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="224" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="no2-sp" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="312" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="no3-sp" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="0" y="376" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="note1-sp" value="1．メールアドレス：必須。メール形式で入力する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="0" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="note2-sp" value="2．パスワード：必須。入力内容は伏せ字で表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="64" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="note3-sp" value="3．ログイン：押すと入力を確認し、成功したらメニュー画面へ進む。失敗したらエラーを表示する" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+          <mxGeometry x="416" y="128" width="360" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
