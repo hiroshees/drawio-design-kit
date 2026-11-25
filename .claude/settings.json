@@ -1,6 +1,6 @@
 {
   "permissions": {
-    "allow": ["Bash(scripts/export_svg.sh:*)"]
+    "allow": ["Bash(scripts/export_svg.sh:*)", "Bash(scripts/export_wireframe.sh:*)"]
   },
   "hooks": {
     "PostToolUse": [
