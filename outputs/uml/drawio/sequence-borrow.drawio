@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" scale="1" border="20">
+  <diagram id="sequence-borrow" name="sequence-borrow">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="700" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ライフライン -->
+        <mxCell id="ll-user" value="利用者" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=42;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="40" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-scr" value=":画面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-svc" value=":貸出サービス" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="120" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-repo" value=":書籍リポジトリ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="120" height="580" as="geometry" />
+        </mxCell>
+
+        <!-- 活性区間 -->
+        <mxCell id="act-user" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="20" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="act-scr" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="20" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="act-svc" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="20" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="act-repo1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="190" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="act-repo2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="310" width="20" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- alt の区切り（点線）とガード条件 -->
+        <mxCell id="alt-sep" value="" style="line;strokeWidth=1;dashed=1;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="446" width="780" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-g1" value="[在庫がある]" style="text;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="130" y="272" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-g2" value="[在庫がない]" style="text;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="130" y="458" width="120" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- メッセージ（活性区間に連結せず、座標で両端を活性区間の端にそろえる） -->
+        <!-- 1. 利用者 → 画面：借りる(書籍ID) -->
+        <mxCell id="m1" value="借りる(書籍ID)" style="html=1;rounded=0;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="120" as="sourcePoint" />
+            <mxPoint x="290" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- 2. 画面 → 貸出サービス：貸出する(書籍ID) -->
+        <mxCell id="m2" value="貸出する(書籍ID)" style="html=1;rounded=0;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="sourcePoint" />
+            <mxPoint x="510" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- 3. 貸出サービス → 書籍リポジトリ：在庫を確認する(書籍ID) -->
+        <mxCell id="m3" value="在庫を確認する(書籍ID)" style="html=1;rounded=0;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="200" as="sourcePoint" />
+            <mxPoint x="750" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- 4. 書籍リポジトリ → 貸出サービス：在庫の有無（戻り値） -->
+        <mxCell id="m4" value="在庫の有無" style="html=1;rounded=0;dashed=1;endArrow=open;endFill=0;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="240" as="sourcePoint" />
+            <mxPoint x="530" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- alt [在庫がある] -->
+        <mxCell id="m5" value="貸出を記録する" style="html=1;rounded=0;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="320" as="sourcePoint" />
+            <mxPoint x="750" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" value="貸出完了" style="html=1;rounded=0;dashed=1;endArrow=open;endFill=0;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="370" as="sourcePoint" />
+            <mxPoint x="310" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" value="返却期限を表示する" style="html=1;rounded=0;dashed=1;endArrow=open;endFill=0;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="110" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- alt [在庫がない] -->
+        <mxCell id="m8" value="在庫なし" style="html=1;rounded=0;dashed=1;endArrow=open;endFill=0;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="500" as="sourcePoint" />
+            <mxPoint x="310" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" value="貸出できません" style="html=1;rounded=0;dashed=1;endArrow=open;endFill=0;verticalAlign=bottom;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="540" as="sourcePoint" />
+            <mxPoint x="110" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- alt の枠（最前面・塗りつぶしなし） -->
+        <mxCell id="alt" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=25;fillColor=#FFFFFF;swimlaneFillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="780" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

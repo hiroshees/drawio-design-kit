@@ -33,3 +33,6 @@
 
 ## ユースケース図（図書貸出・動作確認用）
 ![ユースケース図](../outputs/uml/svg/usecase-library-test.svg)
+
+## シーケンス図（本を借りる）
+![シーケンス図](../outputs/uml/svg/sequence-borrow.svg)
