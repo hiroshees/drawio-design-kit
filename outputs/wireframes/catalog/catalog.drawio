@@ -1,0 +1,348 @@
+<mxfile host="65bd71144e">
+    <diagram id="buttons" name="buttons">
+        <mxGraphModel dx="767" dy="598" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="112" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.buttons.button;html=1;whiteSpace=wrap;mainText=ボタン;strokeColor=#666666;fillColor=#dddddd;" value="" vertex="1">
+                    <mxGeometry height="40" width="120" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="buttons.button" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="shape=mxgraph.mockup.buttons.horButtonBar;html=1;whiteSpace=wrap;mainText=+ボタン1,ボタン2,ボタン3;" value="" vertex="1">
+                    <mxGeometry height="40" width="240" x="280" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="buttons.horButtonBar" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="shape=mxgraph.mockup.buttons.onOffButton;html=1;whiteSpace=wrap;mainText=ON,OFF;" value="" vertex="1">
+                    <mxGeometry height="32" width="80" x="560" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="buttons.onOffButton" vertex="1">
+                    <mxGeometry height="16" width="200" x="560" y="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="forms" name="forms">
+        <mxGraphModel dx="1202" dy="936" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="584" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.text.textBox;html=1;whiteSpace=wrap;mainText=;strokeColor=#666666;fillColor=#ffffff;align=left;spacingLeft=8;" value="テキスト入力" vertex="1">
+                    <mxGeometry height="32" width="200" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="text.textBox" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="shape=mxgraph.mockup.forms.pwField;html=1;whiteSpace=wrap;mainText=******;" value="" vertex="1">
+                    <mxGeometry height="32" width="200" x="280" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.pwField" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="shape=mxgraph.mockup.forms.comboBox;html=1;whiteSpace=wrap;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;" value="選択肢" vertex="1">
+                    <mxGeometry height="32" width="200" x="520" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.comboBox" vertex="1">
+                    <mxGeometry height="16" width="200" x="520" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="shape=mxgraph.mockup.forms.checkbox;html=1;whiteSpace=wrap;resizable=0;fillColor=#AAAAAA;gradientColor=#666666;strokeColor=#444444;" value="" vertex="1">
+                    <mxGeometry height="24" width="24" x="760" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.checkbox" vertex="1">
+                    <mxGeometry height="16" width="200" x="760" y="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="shape=mxgraph.mockup.forms.radioGroup;html=1;whiteSpace=wrap;mainText=+選択肢1,選択肢2;" value="" vertex="1">
+                    <mxGeometry height="64" width="160" x="1000" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.radioGroup" vertex="1">
+                    <mxGeometry height="16" width="200" x="1000" y="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="shape=mxgraph.mockup.forms.checkboxGroup;html=1;whiteSpace=wrap;mainText=+選択肢1,選択肢2;" value="" vertex="1">
+                    <mxGeometry height="64" width="160" x="40" y="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.checkboxGroup" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="212" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="shape=mxgraph.mockup.forms.searchBox;html=1;whiteSpace=wrap;mainText=;flipH=1;align=left;spacingLeft=26;" value="検索" vertex="1">
+                    <mxGeometry height="32" width="200" x="280" y="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.searchBox" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="c15" parent="1" style="shape=mxgraph.mockup.forms.signIn;html=1;whiteSpace=wrap;mainText=ログイン,ユーザー名:,johndoe,パスワード:,********,パスワードを忘れた,新規ユーザー,ログイン,新規登録;" value="" vertex="1">
+                    <mxGeometry height="176" width="240" x="520" y="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="c16" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.signIn" vertex="1">
+                    <mxGeometry height="16" width="200" x="520" y="324" as="geometry"/>
+                </mxCell>
+                <mxCell id="c17" parent="1" style="shape=mxgraph.mockup.forms.listBox;html=1;whiteSpace=wrap;mainText=見出し;subText=項目1,+項目2,項目3;" value="" vertex="1">
+                    <mxGeometry height="112" width="160" x="800" y="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="c18" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.listBox" vertex="1">
+                    <mxGeometry height="16" width="200" x="800" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="c19" parent="1" style="shape=mxgraph.mockup.forms.spinner;html=1;whiteSpace=wrap;spinLayout=right;spinStyle=normal;adjStyle=triangle;mainText=;align=left;spacingLeft=8;" value="1" vertex="1">
+                    <mxGeometry height="32" width="120" x="40" y="376" as="geometry"/>
+                </mxCell>
+                <mxCell id="c20" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.spinner" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="412" as="geometry"/>
+                </mxCell>
+                <mxCell id="c21" parent="1" style="shape=mxgraph.mockup.forms.horSlider;html=1;whiteSpace=wrap;sliderStyle=basic;handleStyle=handle;" value="" vertex="1">
+                    <mxGeometry height="24" width="160" x="280" y="376" as="geometry"/>
+                </mxCell>
+                <mxCell id="c22" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.horSlider" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="404" as="geometry"/>
+                </mxCell>
+                <mxCell id="c23" parent="1" style="shape=mxgraph.mockup.forms.calendar;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="160" width="200" x="520" y="376" as="geometry"/>
+                </mxCell>
+                <mxCell id="c24" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="forms.calendar" vertex="1">
+                    <mxGeometry height="16" width="200" x="520" y="540" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="text" name="text">
+        <mxGraphModel dx="1011" dy="787" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="296" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.text.link;html=1;whiteSpace=wrap;linkText=リンク;" value="" vertex="1">
+                    <mxGeometry height="24" width="120" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="text.link" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="shape=mxgraph.mockup.text.linkBar;html=1;whiteSpace=wrap;mainText=ホーム,一覧,設定;" value="" vertex="1">
+                    <mxGeometry height="24" width="240" x="280" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="text.linkBar" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="shape=mxgraph.mockup.text.bulletedList;html=1;whiteSpace=wrap;mainText=項目1,項目2,項目3;" value="" vertex="1">
+                    <mxGeometry height="104" width="160" x="560" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="text.bulletedList" vertex="1">
+                    <mxGeometry height="16" width="200" x="560" y="132" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="shape=mxgraph.mockup.text.stickyNote;html=1;whiteSpace=wrap;mainText=メモ1,メモ2;" value="" vertex="1">
+                    <mxGeometry height="80" width="160" x="800" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="text.stickyNote" vertex="1">
+                    <mxGeometry height="16" width="200" x="800" y="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="shape=mxgraph.mockup.text.callout;html=1;whiteSpace=wrap;linkText=吹き出し;callDir=NW;callStyle=line;strokeColor=#666666;fillColor=#ffffff;" value="" vertex="1">
+                    <mxGeometry height="64" width="160" x="40" y="184" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="text.callout" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="252" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="containers" name="containers">
+        <mxGraphModel dx="1044" dy="813" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="408" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.containers.window;html=1;whiteSpace=wrap;mainText=;align=center;verticalAlign=top;spacing=5;" value="ウィンドウ" vertex="1">
+                    <mxGeometry height="120" width="240" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="containers.window" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="shape=mxgraph.mockup.containers.browserWindow;html=1;whiteSpace=wrap;mainText=https://example.com,ページ1;" value="" vertex="1">
+                    <mxGeometry height="160" width="320" x="320" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="containers.browserWindow" vertex="1">
+                    <mxGeometry height="16" width="200" x="320" y="188" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="shape=mxgraph.mockup.containers.alertBox;html=1;whiteSpace=wrap;mainText=確認;subText=削除しますか?;buttonText=OK,キャンセル;" value="" vertex="1">
+                    <mxGeometry height="120" width="240" x="680" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="containers.alertBox" vertex="1">
+                    <mxGeometry height="16" width="200" x="680" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="shape=mxgraph.mockup.containers.horTabBar;html=1;whiteSpace=wrap;tabs=+タブ1,タブ2,タブ3;" value="" vertex="1">
+                    <mxGeometry height="32" width="280" x="40" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="containers.horTabBar" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="276" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="shape=mxgraph.mockup.containers.verTabBar;html=1;whiteSpace=wrap;tabs=+タブ1,タブ2,タブ3;" value="" vertex="1">
+                    <mxGeometry height="120" width="120" x="360" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="containers.verTabBar" vertex="1">
+                    <mxGeometry height="16" width="200" x="360" y="364" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="shape=mxgraph.mockup.containers.accordion;html=1;whiteSpace=wrap;mainText=+グループ1,グループ2,グループ3;" value="" vertex="1">
+                    <mxGeometry height="120" width="200" x="600" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="containers.accordion" vertex="1">
+                    <mxGeometry height="16" width="200" x="600" y="364" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="shape=mxgraph.mockup.containers.marginRect;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="120" width="200" x="840" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="containers.marginRect" vertex="1">
+                    <mxGeometry height="16" width="200" x="840" y="364" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="navigation" name="navigation">
+        <mxGraphModel dx="1138" dy="886" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="272" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.navigation.breadcrumb;html=1;whiteSpace=wrap;mainText=ホーム,一覧,詳細;" value="" vertex="1">
+                    <mxGeometry height="24" width="240" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="navigation.breadcrumb" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="shape=mxgraph.mockup.navigation.pagination;html=1;whiteSpace=wrap;linkText=;" value="&lt; 1 2 3 &gt;" vertex="1">
+                    <mxGeometry height="24" width="240" x="320" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="navigation.pagination" vertex="1">
+                    <mxGeometry height="16" width="200" x="320" y="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="shape=mxgraph.mockup.navigation.stepBar;html=1;whiteSpace=wrap;mainText=入力,確認,完了;" value="" vertex="1">
+                    <mxGeometry height="32" width="280" x="600" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="navigation.stepBar" vertex="1">
+                    <mxGeometry height="16" width="200" x="600" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="shape=mxgraph.mockup.navigation.scrollBar;html=1;whiteSpace=wrap;barPos=40;direction=north;resizeHeight=1;" value="" vertex="1">
+                    <mxGeometry height="120" width="16" x="920" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="navigation.scrollBar" vertex="1">
+                    <mxGeometry height="16" width="200" x="920" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="shape=mxgraph.mockup.navigation.pageControl;html=1;whiteSpace=wrap;fillColor=#999999;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="24" width="120" x="40" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="navigation.pageControl" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="228" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="misc" name="misc">
+        <mxGraphModel dx="1202" dy="936" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="280" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.misc.progressBar;html=1;whiteSpace=wrap;fillColor2=#888888;barPos=60;" value="" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.progressBar" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="shape=mxgraph.mockup.misc.rating;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="24" width="120" x="280" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.rating" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="shape=mxgraph.mockup.misc.shoppingCart;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="32" width="32" x="520" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.shoppingCart" vertex="1">
+                    <mxGeometry height="16" width="200" x="520" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="shape=mxgraph.mockup.misc.pin;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="32" width="24" x="760" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.pin" vertex="1">
+                    <mxGeometry height="16" width="200" x="760" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="shape=mxgraph.mockup.misc.map;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="120" width="200" x="1000" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.map" vertex="1">
+                    <mxGeometry height="16" width="200" x="1000" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="shape=mxgraph.mockup.misc.mail2;html=1;whiteSpace=wrap;fillColor=#FFE040;" value="" vertex="1">
+                    <mxGeometry height="24" width="32" x="40" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.mail2" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="228" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="shape=mxgraph.mockup.misc.editIcon;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="32" width="32" x="280" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.editIcon" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="236" as="geometry"/>
+                </mxCell>
+                <mxCell id="c15" parent="1" style="shape=mxgraph.mockup.misc.trashcanIcon;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="32" width="32" x="520" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="c16" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.trashcanIcon" vertex="1">
+                    <mxGeometry height="16" width="200" x="520" y="236" as="geometry"/>
+                </mxCell>
+                <mxCell id="c17" parent="1" style="shape=mxgraph.mockup.misc.help_icon;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="32" width="32" x="760" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="c18" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="misc.help_icon" vertex="1">
+                    <mxGeometry height="16" width="200" x="760" y="236" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="graphics" name="graphics">
+        <mxGraphModel dx="1202" dy="936" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="192" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.graphics.simpleIcon;html=1;whiteSpace=wrap;strokeColor=#7E7E7E;fillColor=#111111;" value="" vertex="1">
+                    <mxGeometry height="32" width="32" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="graphics.simpleIcon" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="shape=mxgraph.mockup.graphics.barChart;html=1;whiteSpace=wrap;strokeColor=none;strokeColor2=none;" value="" vertex="1">
+                    <mxGeometry height="120" width="160" x="280" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="graphics.barChart" vertex="1">
+                    <mxGeometry height="16" width="200" x="280" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="shape=mxgraph.mockup.graphics.lineChart;html=1;whiteSpace=wrap;strokeColor=none;" value="" vertex="1">
+                    <mxGeometry height="120" width="160" x="520" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="graphics.lineChart" vertex="1">
+                    <mxGeometry height="16" width="200" x="520" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="shape=mxgraph.mockup.graphics.pieChart;html=1;whiteSpace=wrap;parts=10,20,35;" value="" vertex="1">
+                    <mxGeometry height="120" width="120" x="760" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="graphics.pieChart" vertex="1">
+                    <mxGeometry height="16" width="200" x="760" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="shape=mxgraph.mockup.graphics.iconGrid;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="120" width="120" x="1000" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="graphics.iconGrid" vertex="1">
+                    <mxGeometry height="16" width="200" x="1000" y="148" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="markup" name="markup">
+        <mxGraphModel dx="637" dy="496" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="104" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c1" parent="1" style="shape=mxgraph.mockup.markup.redX;html=1;whiteSpace=wrap;" value="" vertex="1">
+                    <mxGeometry height="32" width="32" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#666666;" value="markup.redX" vertex="1">
+                    <mxGeometry height="16" width="200" x="40" y="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

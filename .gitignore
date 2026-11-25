@@ -1,0 +1,3 @@
+# ワイヤーフレームの PNG は、Claude Code が見た目を確認するための一時ファイル。
+# .drawio からいつでも作り直せるので、コミットしない（フォルダは .gitkeep で残す）
+outputs/wireframes/**/*.png
