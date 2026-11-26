@@ -13,9 +13,11 @@ import os
 import re
 import xml.etree.ElementTree as ET
 
-# ページ名 → 画面枠の大きさ（幅, 高さ）
+# ページ名の先頭（版）→ 画面枠の大きさ（幅, 高さ）
 SCREEN_SIZES = {"pc": (1280, 800), "sp": (375, 812)}
 PAGE_ORDER = ["pc", "sp"]
+# ページ名は、版（pc / sp）に、必要なら「-状態名」を付ける（例：sp-menu、pc-dialog）
+PAGE_NAME_PATTERN = re.compile(r"^(pc|sp)(-[a-z0-9]+)*$")
 REQUIRED_LAYERS = ["frame", "parts", "notes"]
 FILE_NAME_PATTERN = re.compile(r"^wf-[a-z0-9]+-[a-z0-9]+(-[a-z0-9]+)*\.drawio$")
 
@@ -61,6 +63,17 @@ def adopted_shapes():
     return set(re.findall(r"`mxgraph\.mockup\.([A-Za-z0-9_.]+)`", text[start:end]))
 
 
+def page_base(name):
+    """ページ名の版（pc / sp）。不正な名前なら None"""
+    m = PAGE_NAME_PATTERN.match(name or "")
+    return m.group(1) if m else None
+
+
+def page_order_key(name):
+    """並び順：pc の系統が先、sp の系統が後。同じ系統では、状態名のないページが先"""
+    return (PAGE_ORDER.index(page_base(name)), 0 if name == page_base(name) else 1)
+
+
 def is_multiple_of_8(value):
     return abs(value - round(value / 8) * 8) < 1e-6
 
@@ -99,20 +112,20 @@ def check(path):
     # --- ページ名 ---
     page_names = [d.get("name") for d, _ in models]
     for pn in page_names:
-        if pn not in SCREEN_SIZES:
-            errors.append(f"ページ名 {pn!r} は使えません（pc か sp にしてください）")
+        if page_base(pn) is None:
+            errors.append(f"ページ名 {pn!r} は使えません（pc か sp。状態を描くときは sp-menu のように「-状態名」を付けてください）")
     if len(set(page_names)) != len(page_names):
         errors.append(f"ページ名が重複しています: {page_names}")
-    known = [p for p in page_names if p in PAGE_ORDER]
-    if known != sorted(known, key=PAGE_ORDER.index):
-        errors.append("ページの順番は pc、sp にしてください")
+    known = [p for p in page_names if page_base(p)]
+    if known != sorted(known, key=page_order_key):
+        errors.append("ページの順番は、pc、pc-状態名、sp、sp-状態名 にしてください")
 
     catalog = adopted_shapes()
     if catalog is None:
         errors.append("部品カタログ（.claude/skills/drawio-wireframe/references/catalog.md）の「採用」の表が読めないため、図形名を確かめられません")
     for d, model in models:
         # ページ名が不正なページは、画面枠の大きさを決められないので、ページ名のエラーだけにする
-        if d.get("name") in SCREEN_SIZES:
+        if page_base(d.get("name")):
             errors += check_page(d.get("name"), model, catalog)
     return errors
 
@@ -145,7 +158,7 @@ def check_page(page, model, catalog):
     # --- 部品ごとのチェック ---
     screen_found = False
     frame_h = None
-    expected = SCREEN_SIZES.get(page)
+    expected = SCREEN_SIZES.get(page_base(page))
     for c in cells:
         if c.get("vertex") != "1" and c.get("edge") != "1":
             continue

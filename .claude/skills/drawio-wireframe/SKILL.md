@@ -13,6 +13,7 @@ description: outputs/wireframes/ の画面ワイヤーフレーム（.drawio）�
    - 画面遷移図など、ほかの図との連動は不要。連想の元にするのはかまわない
    - 修正のときは、変更する箇所だけを示せばよい
 3. ファイル名を `wf-<画面ID>-<名前>.drawio` にする（例：`wf-sc01-login.drawio`）。ページは、PC 版を `pc`、スマホ版を `sp` にする
+   - メニューを開いた状態などを描くときは、`sp-menu` のように「-状態名」を付けたページを足す（`references/rules.md` の 1）
    - 同じ名前のファイルがすでにあれば、上書きせずに別の名前にする
 4. `.drawio` を書く
    - 見本は `outputs/wireframes/drawio/wf-sc01-login.drawio`。構造（レイヤー、画面枠、注釈）をそろえる

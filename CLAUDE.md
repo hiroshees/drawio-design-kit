@@ -7,7 +7,7 @@ UML・設計図を draw.io で描く練習用のリポジトリ。
   - `outputs/uml/` … UML 図・ER 図。形式ごとに、次の 2 つのフォルダに分ける
     - `outputs/uml/drawio/` … 図の元データ（`.drawio`）。作成・修正はこちらに対して行う
     - `outputs/uml/svg/` … 表示用の画像（`.svg`）。`scripts/export_svg.sh` で書き出す（直接作成・編集しない）
-  - `outputs/wireframes/` … 画面のワイヤーフレーム。`drawio/`（元データ。1 ファイルに `pc`・`sp` の 2 ページ）、`svg/`（表示用）、`png/`（Claude Code の確認用。git に入れない）、`catalog/`（部品カタログの元データと、確認用の画像。画像は git に入れない）
+  - `outputs/wireframes/` … 画面のワイヤーフレーム。`drawio/`（元データ。1 ファイルに `pc`・`sp` のページ。別の状態は `sp-menu` などのページを足す）、`svg/`（表示用）、`png/`（Claude Code の確認用。git に入れない）、`catalog/`（部品カタログの元データと、確認用の画像。画像は git に入れない）
 - `review/` … 成果物を確認するための MD
   - `review/uml.md` … UML 図・ER 図を埋め込んだ資料
   - `review/wireframes.md` … ワイヤーフレームを埋め込んだ資料
