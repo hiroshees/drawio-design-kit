@@ -27,3 +27,9 @@
 
 ## SC-41 家計簿の月次一覧（sp）
 ![SC-41 月次一覧（sp）](../outputs/wireframes/svg/wf-sc41-ledger-sp.svg)
+
+## SC-51 美容室の予約（pc）
+![SC-51 予約（pc）](../outputs/wireframes/svg/wf-sc51-reserve-pc.svg)
+
+## SC-51 美容室の予約（sp）
+![SC-51 予約（sp）](../outputs/wireframes/svg/wf-sc51-reserve-sp.svg)

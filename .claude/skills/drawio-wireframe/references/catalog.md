@@ -33,7 +33,7 @@ PNG に書き出した画像で、描画できたことを確認した図形だ�
 | forms | `mxgraph.mockup.forms.listBox` | 160×112 | `mainText=見出し;subText=項目1,+項目2,項目3;` |  |
 | forms | `mxgraph.mockup.forms.spinner` | 120×32 | `spinLayout=right;spinStyle=normal;adjStyle=triangle;mainText=;align=left;spacingLeft=8;` |  |
 | forms | `mxgraph.mockup.forms.horSlider` | 160×24 | `sliderStyle=basic;handleStyle=handle;` |  |
-| forms | `mxgraph.mockup.forms.calendar` | 200×160 | `-` | 曜日と日付は英語固定（Su Mo Tu …）。文言を変える方法は未確認 |
+| forms | `mxgraph.mockup.forms.calendar` | 288×320 | `strokeColor=#666666;mainText=2026年11月;dayNames=月,火,水,木,金,土,日;startOn=6;firstDay=6;days=30;prevDays=31;selDay=0;textSize=14;textColor=#666666;` | `mainText` は見出しの月。`dayNames` は月曜から日曜の順で書き、`startOn=6` で日曜始まりになる。`firstDay` は 1 日の曜日（月曜 0 〜日曜 6）、`days` はその月の日数、`prevDays` は前月の日数。高さは幅の約 1.09 倍にする（日付の数字の縦位置がセルの幅で決まるため、ずれると罫線に重なる。例：288×320、344×376）。選択日（`selDay`）の枠は図形の中で赤に固定されているため、`selDay=0` で選択日なしにする |
 | text | `mxgraph.mockup.text.link` | 120×24 | `linkText=リンク;` |  |
 | text | `mxgraph.mockup.text.linkBar` | 240×24 | `mainText=ホーム,一覧,設定;` |  |
 | text | `mxgraph.mockup.text.bulletedList` | 160×104 | `mainText=項目1,項目2,項目3;` |  |
