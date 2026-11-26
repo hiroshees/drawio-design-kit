@@ -27,7 +27,7 @@
         <mxCell id="c5-pc" value="メニュー（必須）" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-pc">
           <mxGeometry x="160" y="176" width="464" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="c6-pc" value="" style="shape=mxgraph.mockup.forms.radioGroup;html=1;whiteSpace=wrap;mainText=+カット,カラー,パーマ;textSize=14;" vertex="1" parent="layer-parts-pc">
+        <mxCell id="c6-pc" value="" style="shape=mxgraph.mockup.forms.checkboxGroup;html=1;whiteSpace=wrap;mainText=+カット,カラー,パーマ;textSize=14;" vertex="1" parent="layer-parts-pc">
           <mxGeometry x="160" y="208" width="160" height="96" as="geometry" />
         </mxCell>
         <mxCell id="c7-pc" value="担当者" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-pc">
@@ -75,7 +75,7 @@
         <mxCell id="c21-pc" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
           <mxGeometry x="144" y="200" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="c22-pc" value="1．メニュー：必須。1 つ選ぶ" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
+        <mxCell id="c22-pc" value="1．メニュー：必須。1 つ以上選ぶ（複数選べる）" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-pc">
           <mxGeometry x="1320" y="0" width="360" height="56" as="geometry" />
         </mxCell>
         <mxCell id="c23-pc" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-pc">
@@ -151,7 +151,7 @@
         <mxCell id="c7-sp" value="メニュー（必須）" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-sp">
           <mxGeometry x="16" y="136" width="344" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="c8-sp" value="" style="shape=mxgraph.mockup.forms.radioGroup;html=1;whiteSpace=wrap;mainText=+カット,カラー,パーマ;textSize=14;" vertex="1" parent="layer-parts-sp">
+        <mxCell id="c8-sp" value="" style="shape=mxgraph.mockup.forms.checkboxGroup;html=1;whiteSpace=wrap;mainText=+カット,カラー,パーマ;textSize=14;" vertex="1" parent="layer-parts-sp">
           <mxGeometry x="16" y="168" width="160" height="96" as="geometry" />
         </mxCell>
         <mxCell id="c9-sp" value="担当者" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;" vertex="1" parent="layer-parts-sp">
@@ -202,7 +202,7 @@
         <mxCell id="c24-sp" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
           <mxGeometry x="0" y="160" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="c25-sp" value="1．メニュー：必須。1 つ選ぶ" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
+        <mxCell id="c25-sp" value="1．メニュー：必須。1 つ以上選ぶ（複数選べる）" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="layer-notes-sp">
           <mxGeometry x="416" y="0" width="360" height="56" as="geometry" />
         </mxCell>
         <mxCell id="c26-sp" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;fontColor=#FF0000;fontSize=12;" vertex="1" parent="layer-notes-sp">
