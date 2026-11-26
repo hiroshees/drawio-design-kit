@@ -1,4 +1,4 @@
-# uml-work01
+# drawio-design-kit
 
 UML・設計図を draw.io で描く練習用のリポジトリ。
 
