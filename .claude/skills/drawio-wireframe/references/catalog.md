@@ -85,5 +85,5 @@ PNG に書き出した画像で、描画できたことを確認した図形だ�
 ## 図形を追加するとき
 
 1. 図形名は、推測で書かない。draw.io 本体に実在するか、描画して確かめる
-2. `outputs/wireframes/catalog/catalog.drawio` に、新しい図形を置いて PNG に書き出し、画像で描画を確認する（`scripts/export_wireframe.sh outputs/wireframes/catalog/catalog.drawio` で、ページごとに書き出せる）
+2. `outputs/wireframes/catalog/catalog.drawio` に、新しい図形を置いて PNG に書き出し、画像で描画を確認する（`scripts/export_wireframe.sh outputs/wireframes/catalog/catalog.drawio` で、ページごとに `outputs/wireframes/catalog/catalog-<ページ名>.svg`・`.png` に書き出せる。どちらも確認用で、git に入れない）
 3. 描画できたものだけを、この文書の「採用」の表に追加する（チェックスクリプトは、この表を採用リストとして読む）。使えなかったものは「不採用」に、理由とともに書く

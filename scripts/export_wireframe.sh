@@ -12,6 +12,8 @@
 #           outputs/wireframes/svg/<ファイル名>-<ページ名>.svg（表示用）
 #           outputs/wireframes/png/<ファイル名>-<ページ名>.png（Claude Code が見た目を確認する用）
 #           例：wf-sc01-login.drawio の pc ページ → wf-sc01-login-pc.svg / wf-sc01-login-pc.png
+#   - 部品カタログ（outputs/wireframes/catalog/*.drawio）を指定したときは、SVG と PNG を
+#     outputs/wireframes/catalog/ に書き出す（確認用。git に入れない）
 #   - 書き出す前に check_drawio.py でチェックし、ルール違反がある図は書き出さない
 #   - 図のコピーは埋め込まない（-e を付けない）。余白は 20px、PNG の拡大率は等倍
 #   - ページ名は、英数字・ハイフン・アンダースコアだけ使える（ファイル名にするため）
@@ -27,6 +29,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SRC_DIR="$ROOT/outputs/wireframes/drawio"
 SVG_DIR="$ROOT/outputs/wireframes/svg"
 PNG_DIR="$ROOT/outputs/wireframes/png"
+CATALOG_DIR="$ROOT/outputs/wireframes/catalog"
 CHECKER="$ROOT/.claude/hooks/check_drawio.py"
 BORDER=20
 PNG_SCALE=1
@@ -36,7 +39,7 @@ files=()
 for arg in "$@"; do
   case "$arg" in
     -f|--force) force=1 ;;
-    -h|--help) sed -n '2,22p' "$0"; exit 0 ;;
+    -h|--help) sed -n '2,24p' "$0"; exit 0 ;;
     *) files+=("$arg"); force=1 ;;   # ファイルを指定したときは、変更の有無に関係なく書き出す
   esac
 done
@@ -105,8 +108,14 @@ for src in "${files[@]}"; do
   for page in "${pages[@]}"; do
     index=$((index + 1))                # drawio の -p は 1 始まり
     out="$name-$page"
-    svg="$SVG_DIR/$out.svg"
-    png="$PNG_DIR/$out.png"
+    # 部品カタログの画像は、表示用の svg/ と分けて、カタログのフォルダに置く
+    if [ "$(cd "$(dirname "$src")" && pwd)" = "$CATALOG_DIR" ]; then
+      svg="$CATALOG_DIR/$out.svg"
+      png="$CATALOG_DIR/$out.png"
+    else
+      svg="$SVG_DIR/$out.svg"
+      png="$PNG_DIR/$out.png"
+    fi
 
     # 変更がなければスキップ（SVG と PNG の両方が新しい場合）
     if [ "$force" -eq 0 ] && [ -f "$svg" ] && [ -f "$png" ] && [ "$svg" -nt "$src" ] && [ "$png" -nt "$src" ]; then
