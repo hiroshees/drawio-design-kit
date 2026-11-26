@@ -33,3 +33,9 @@
 
 ## SC-51 美容室の予約（sp）
 ![SC-51 予約（sp）](../outputs/wireframes/svg/wf-sc51-reserve-sp.svg)
+
+## SC-61 SaaS のマイページ（pc）
+![SC-61 マイページ（pc）](../outputs/wireframes/svg/wf-sc61-mypage-pc.svg)
+
+## SC-61 SaaS のマイページ（sp）
+![SC-61 マイページ（sp）](../outputs/wireframes/svg/wf-sc61-mypage-sp.svg)
