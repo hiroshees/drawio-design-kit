@@ -184,10 +184,13 @@ def check_page(page, model, catalog):
             frame_h = h
             continue
 
-        # 画面の幅いっぱいの部品（ヘッダーなど）は、幅が 8 の倍数でなくてもよい
+        # 画面の幅いっぱいの部品（ヘッダーなど）は幅が、高さいっぱいの部品（開いたメニューなど）は高さが、
+        # 8 の倍数でなくてもよい
         full_width = expected and x == 0 and w == expected[0]
+        full_height = expected and y == 0 and h == expected[1]
         checks = (("x", x), ("y", y), ("幅", w), ("高さ", h))
-        bad = [f"{k}={v:g}" for k, v in checks if not is_multiple_of_8(v) and not (k == "幅" and full_width)]
+        bad = [f"{k}={v:g}" for k, v in checks
+               if not is_multiple_of_8(v) and not (k == "幅" and full_width) and not (k == "高さ" and full_height)]
         if bad:
             errors.append(f"ページ {page}: 部品 {cid} が 8 の倍数ではありません（{', '.join(bad)}）")
 
