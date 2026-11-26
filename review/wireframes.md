@@ -39,3 +39,6 @@
 
 ## SC-61 SaaS のマイページ（sp）
 ![SC-61 マイページ（sp）](../outputs/wireframes/svg/wf-sc61-mypage-sp.svg)
+
+## SC-61 SaaS のマイページ（sp・メニューを開いた状態）
+![SC-61 マイページ（sp-menu）](../outputs/wireframes/svg/wf-sc61-mypage-sp-menu.svg)
